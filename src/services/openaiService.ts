@@ -28,7 +28,7 @@ export const processImageWithGPT = async (imageFile: File): Promise<GPTResponse 
       method: 'POST',
       body: formData,
     });
-    
+    //tattuinanjkhsdlkjfhdjh
     if (!response.ok) {
       throw new Error(`API returned status ${response.status}`);
     }
