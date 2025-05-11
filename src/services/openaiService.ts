@@ -24,7 +24,7 @@ export const processImageWithGPT = async (imageFile: File): Promise<GPTResponse 
     formData.append('file', imageFile); 
     
     // Send the image to the specified API endpoint
-    const response = await fetch('https://lendr-backend.onrender.com/analyze-image', {
+    const response = await fetch('https://p-659806.onrender.com/analyze-image', {
       method: 'POST',
       body: formData,
     });
