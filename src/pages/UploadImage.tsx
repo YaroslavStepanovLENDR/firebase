@@ -23,7 +23,10 @@ export default function UploadImage() {
     console.log("Uploading file:", file);
 
     try {
-      const response = await fetch("https://p-659806.onrender.com/analyze-image", {
+      const BACKENDS = [
+  "https://p-659806.onrender.com/analyze-image",
+  "https://p-659806.fly.dev/analyze-image",
+  "https://lendr-backend.onrender.com/analyze-image", {
         method: "POST",
         body: formData,
       });
