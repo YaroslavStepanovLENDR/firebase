@@ -29,6 +29,10 @@ import EditProfile from "./pages/EditProfile";
 import PreviewListing from "./pages/PreviewListing";
 // @ts-nocheck
 import UploadImage from "./pages/UploadImage";
+import AddListing from "./pages/AddListing";
+// ...
+<Route path="/add" element={<AddListing />} />
+
 
 <Route path="/list" element={<UploadImage />} />
 
