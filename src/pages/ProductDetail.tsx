@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, MapPin, Calendar, DollarSign, ShieldCheck } from "lucide-react";
+import { db, auth } from "./firebase";
 import { 
   Dialog, 
   DialogContent, 
