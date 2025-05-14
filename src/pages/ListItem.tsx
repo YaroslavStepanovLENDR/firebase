@@ -7,6 +7,7 @@ import { Label } from "@/components/ui/label";
 import { Camera, MapPin, Tag, Plus, X, Loader2, Calendar, ChevronDown } from "lucide-react";
 import { Slider } from "@/components/ui/slider";
 import { toast } from "sonner";
+import { db, auth } from "./firebase";
 import {
   Dialog,
   DialogContent,
