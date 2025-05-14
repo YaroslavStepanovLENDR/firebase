@@ -6,6 +6,7 @@ import { ChevronLeft, Edit, Trash2, PlusCircle } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { toast } from "sonner";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { db, auth } from "./firebase";
 
 const ManageListings = () => {
   const { t, language } = useLanguage();
