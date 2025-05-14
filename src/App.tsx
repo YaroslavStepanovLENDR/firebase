@@ -208,13 +208,21 @@ const App = () => (
                 </Layout>
               } 
             />
+            <Route
+  path="/add"
+  element={
+    <Layout>
+      <AddListing />
+    </Layout>
+  }
+/>
             <Route 
               path="/preview-listing" 
               element={
                 <Layout>
                   <PreviewListing />
                 </Layout>
-              } 
+              }
             />
             <Route path="*" element={<NotFound />} />
           </Routes>
