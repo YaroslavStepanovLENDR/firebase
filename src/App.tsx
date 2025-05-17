@@ -31,11 +31,6 @@ import PreviewListing from "./pages/PreviewListing";
 import UploadImage from "./pages/UploadImage";
 import AddListing from "./pages/AddListing";
 // ...
-<Route path="/add" element={<AddListing />} />
-
-
-<Route path="/list" element={<UploadImage />} />
-
 
 const queryClient = new QueryClient();
 
@@ -216,6 +211,7 @@ const App = () => (
     </Layout>
   }
 />
+<Route path="/list" element={<UploadImage />} />
             <Route 
               path="/preview-listing" 
               element={

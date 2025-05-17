@@ -29,7 +29,7 @@ export default function UploadImage() {
   "https://lendr-backend.onrender.com/analyze-image", {
         method: "POST",
         body: formData,
-      });
+      }];
 
       if (!response.ok) {
         const errorText = await response.text();
